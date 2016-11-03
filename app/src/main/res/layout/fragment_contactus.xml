@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrollView android:fitsSystemWindows="true"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_width="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ScrollView android:fitsSystemWindows="true"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
   android:background="#ffffff"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillViewport="false">
@@ -9,7 +14,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginBottom="5dp"
         android:background="#F5F5F5">
     <LinearLayout android:layout_height="wrap_content"
@@ -147,33 +152,24 @@
         </LinearLayout>
 
         </LinearLayout>
-
-
-        <!--<android.support.v7.widget.AppCompatButton-->
-            <!--android:layout_height="40sp"-->
-            <!--android:textColor="@color/white"-->
-            <!--android:background="@color/colorblue"-->
-            <!--android:layout_width="100sp"-->
-            <!--android:id="@+id/contact_btn"-->
-            <!--android:layout_gravity="center"-->
-            <!--android:layout_marginTop="20sp"-->
-            <!--android:layout_below="@+id/captchalinear"-->
-            <!--android:gravity="center"-->
-            <!--android:text="Send" />-->
-
-
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:elevation="5sp"
-
+            android:gravity="end"
             android:layout_marginLeft="5sp"
             android:layout_marginRight="5sp"
             android:layout_marginTop="5sp"
             android:background="@color/white"
 
             >
+
 
 
             <TextView
@@ -185,33 +181,16 @@
                 android:textSize="15dp"
                 android:layout_marginLeft="3sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="3dp"
                 android:layout_alignParentBottom="true"
                 android:drawablePadding="5dp"
                 android:drawableLeft="@drawable/architec"
                 />
-            <!--<RelativeLayout-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="left">-->
 
-            <!--<ImageView android:layout_height="match_parent"-->
-                <!--android:src="@drawable/splashlogo1"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_alignParentBottom="true"-->
-                <!--android:layout_gravity="start"-->
-                <!--android:layout_alignParentLeft="true"-->
-               <!--android:id="@+id/contact_molo" />-->
-    <!---->
-            <!--</RelativeLayout>-->
 
             <TextView android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:id="@+id/contact_add"
-                android:layout_below="@+id/contact_img1"
                 android:textSize="12dp"
-
-                android:layout_marginBottom="3dp"
                 android:layout_marginRight="3sp"
                 android:layout_alignParentBottom="true"
              android:layout_marginLeft="5dp"
@@ -258,7 +237,9 @@
                 android:layout_alignParentBottom="true"
                 android:drawableLeft="@drawable/ic_bhrs"
                 />
+
         </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 
-</ScrollView>
+</ScrollView></RelativeLayout>
