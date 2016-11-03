@@ -154,6 +154,7 @@
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:textSize="11sp"
         android:id="@+id/limit" android:text="Limit"/>
 
 </LinearLayout>
@@ -168,6 +169,7 @@
     <TextView android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/limit1"
+        android:textSize="11sp"
         android:text="180 Days"
         android:textStyle="bold"/>
 

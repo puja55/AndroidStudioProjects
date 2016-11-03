@@ -4,7 +4,15 @@
         "source": "D:\\android studio projects\\finallTouch\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\res\\color\\vpi__light_theme.xml"
     },
     {
+        "merged": "D:\\android studio projects\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "D:\\android studio projects\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
         "merged": "D:\\android studio projects\\finallTouch\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
         "source": "D:\\android studio projects\\finallTouch\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "D:\\android studio projects\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "D:\\android studio projects\\AndroidStudioProjects\\libs\\ViewPagerIndicator-Library\\res\\color\\vpi__light_theme.xml"
     }
 ]
