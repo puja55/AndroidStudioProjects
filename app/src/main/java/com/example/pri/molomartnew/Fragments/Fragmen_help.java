@@ -26,6 +26,7 @@ import java.util.List;
  * Created by User on 02/10/2016.
  */
 //fragment help file
+//class
 public class Fragmen_help extends Fragment implements View.OnClickListener {
     TextView contact,about,terms,privacy;
     FragmentManager mFragmentManager;
