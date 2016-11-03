@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">MoloMart</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_share">Share</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="action_rate">Rate</string>
+    <string name="pkg"><u>Change Package</u></string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+<string name="aboutus" translatable="false">MoloMart is one of the largest online resources dedicated to small business. We deliver products, services and educational opportunities that are effective, easy to understand and geared to help business owners become more competitive in their respective industries.
+The MoloMart directory boasts millions of unique visitors every month who search our comprehensive database for individual businesses, industry segments and geographic-specific listings. Business owners can claim and customize their page to improve online visibility and marketability, gain key knowledge vital for success, and find products to help grow and manage their business. The MoloMart team works hard to deliver effective educational resources, promotion opportunities and tools for small businesses.
+What we enjoy the most, though, is learning about unique stories and generating awareness about the collective small business voice. Our close relationship with entrepreneurs allows us to gather and share key insights about this very important market sector to a wider audience. We partner with some of the leading small business industry researchers, and our findings are consistently featured in national news outlets—fostering improved understanding of the impact of small business on our economy, politics, culture and much more. At a more grassroots level, we created the MoloMart Community for our members to ask questions and share experiences because we appreciate that every small business owner is an expert in their own way.
+We are constantly evolving and improving, and our mission to empower small businesses continues to be inspired by their significant impact on an individual, local and national level.</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+<string name="terms">The following terms and conditions ("Terms of Use" or "Terms") govern your use of the MoloMart.com website (the "Site" or "website"). By using this Site, you are entering into a legal agreement with MoloMart a Company registered under the Companies Act, 1956 having its registered office at LIG, Indore - 452 001, MadhyaPardesh (sometimes referred to herein as "MoloMart", "we," "our" or "us"). The terms of your agreement with us are explained below. Please read this document carefully.
+
+These terms of use may be amended from time to time without notice.
+</string>
+    <string name="polycy">We understand your concern about the personal information you submit on MoloMart.com and our responsibility to protect your privacy. As part of this responsibility, we assure that we will not misuse your personal information in any way.
+This document highlights every aspect of the Privacy Policy to you. Your visit and actions undertaken on our site will be governed by the following policy. This policy provides the manner your data is collected and used by MoloMart.com. You are advised to please read the policy. By accessing the services provided by MoloMart.com, you agree to the collection and use of your data by MoloMart.com. We reserve the right to add, modify, delete or change the contents of this privacy policy as may be felt necessary by us.
+    </string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_contactus">Contact Us</string>
+    <string name="nav_listurbuisness">List Your Buisness</string>
+    <string name="nav_share">Share the App</string>
+    <string name="nav_rate">Rate the App</string>
+    <string name="nav_terms">Terms and Conditions</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Contact Us</item>
+        <item>List Your Buisness</item>
+        <item>Share the App</item>
+        <item>Rate the App</item>
+        <item>About Us</item>
+        <item>Terms</item>
+        <item>Privacy Policy</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_about">About Us</string>
+    <string name="nav_item_contact">Contact Us</string>
+    <string name="nav_item_trm">Term And Conditions</string>
+    <string name="nav_item_polycy">Privacy and Policy</string>
+    <string name="nav_item_app">Share The App</string>
+    <string name="nav_item_business">List Your Business</string>
+    <string name="nav_item_Id">Share The Id</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_contact</item>
+        <item>@string/nav_item_trm</item>
+        <item>@string/nav_item_polycy</item>
+        <item>@string/nav_item_app</item>
+        <item>@string/nav_item_business</item>
+        <item>@string/nav_item_Id</item>
+
+
+    </string-array>
+
+    <string name="title_id">Share The Id</string>
+    <string name="title_business">List Your Business</string>
+    <string name="title_app">Share The App</string>
+    <string name="title_polycy">Privact and Policy</string>
+    <string name="title_trm">Terms and Conditions</string>
+    <string name="title_contact">Contact Us</string>
+    <string name="title_about">About Us</string>
+    <string name="title_home">Home</string>
+
+    <string-array name="spinner_array">
+        <item>Oldest</item>
+        <item>Newest</item>
+
+    </string-array>
+    <string-array name="country_array">
+        <item>India</item>
+    </string-array>
+    <string-array name="state_array">
+        <item>Rajasthan</item>
+        <item>Madhya Pradesh</item>
+        <item>Gujrat</item>
+        <item>Chttisgarh</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>Jaipur</item>
+        <item>Udaipur</item>
+        <item>Bhilwara</item>
+        <item>Chittorgarh</item>
+    </string-array>
+    <string-array name="village_array">
+        <item>Jaipur</item>
+        <item>Udaipur</item>
+        <item>Bhilwara</item>
+        <item>Chittorgarh</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Architecture</item>
+        <item>Automobile</item>
+        <item>Bill and Recharge</item>
+        <item>Shop</item>
+    </string-array>
+    <string-array name="order_array">
+        <item>Rating Ascending</item>
+        <item>Rating Descending</item>
+        <item>Id Ascending</item>
+        <item>Id Descending</item>
+    </string-array>
+
+
+
+</resources>

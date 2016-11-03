@@ -1,0 +1,90 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10sp"
+    tools:context="com.example.user.gridviewusingcard.MainActivity">
+
+
+<me.biubiubiu.justifytext.library.JustifyTextView
+    android:id="@+id/about_text"
+    android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    android:layout_marginLeft="20dp"
+
+    android:elevation="4sp"
+    android:gravity="start"
+    android:text="@string/aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:text="Phone : +91 731 4040407"
+        android:id="@+id/text_phno"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:elevation="4sp"
+        android:layout_marginTop="7sp"
+        android:layout_below="@+id/about_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Mail : info@molomart.com"
+        android:id="@+id/text_mail"
+        android:elevation="4sp"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/text_phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/text_mail"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30sp"
+            android:id="@+id/fb"
+            android:background="@drawable/ic_fb"
+            android:layout_weight="1"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:layout_width="30sp"
+            android:id="@+id/twitter"
+            android:background="@drawable/ic_twittr"
+            android:layout_weight="1"
+            android:layout_height="150dp" />
+        <ImageView
+            android:layout_width="30sp"
+            android:id="@+id/google"
+            android:layout_weight="1"
+            android:background="@drawable/ic_googlepls"
+            android:layout_height="150dp" />
+        <ImageView
+            android:layout_width="30sp"
+            android:id="@+id/linked"
+            android:background="@drawable/ic_linkedin"
+            android:layout_weight="1"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:layout_width="30sp"
+            android:id="@+id/pintras"
+            android:background="@drawable/ic_pintrst"
+            android:layout_weight="1"
+            android:layout_height="150dp" />
+    </LinearLayout>
+</RelativeLayout>
+
+</ScrollView>

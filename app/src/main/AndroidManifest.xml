@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pri.molomartnew">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24"/>
+
+
+    <!--<android:configChanges="orientation|keyboardHidden|screenSize">-->
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:allowBackup="true"
+        android:icon="@drawable/splashlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.pri.molomartnew.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.pri.molomartnew.NewMainActivity" android:theme="@style/AppTheme" />
+        <activity android:name="com.example.pri.molomartnew.ForgotPassActivity" android:windowSoftInputMode="stateAlwaysHidden" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.example.pri.molomartnew.SignupActivity" android:windowSoftInputMode="stateAlwaysHidden" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.example.pri.molomartnew.LoginActivity" android:windowSoftInputMode="stateAlwaysHidden" android:theme="@style/AppTheme.Dark" />
+
+    </application>
+
+</manifest>

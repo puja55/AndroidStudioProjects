@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="@string/nav_terms"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textColor="@color/blue"-->
+        <!--android:layout_marginLeft="7dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/trm_name"-->
+        <!--android:layout_height="wrap_content" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:text="YOUR ACCEPTANCE OF THIS AGREEMENT"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:elevation="3sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/trm_agreement"
+        android:layout_height="wrap_content" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:text="@string/terms"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+
+        android:elevation="3sp"
+        android:id="@+id/trm_agreement_deatils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

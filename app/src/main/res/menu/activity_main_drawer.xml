@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/nav_home" />
+
+        <item
+            android:id="@+id/nav_userpanel"
+            android:icon="@drawable/ic_star"
+
+            android:title="User Panel" />
+
+
+        <item
+            android:id="@+id/nav_advancedsearch"
+            android:icon="@drawable/ic_star"
+            android:title="Advanced Search" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_star"
+            android:title="My Favouraits" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/nav_share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star"
+            android:title="@string/nav_rate" />
+
+
+    </group>
+    <item android:title="List Your Business">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:icon="@drawable/ic_star"
+                android:id="@+id/nav_listpackage"
+                android:title="Listing Packages" />
+            <item
+                android:icon="@drawable/ic_star"
+                android:id="@+id/nav_certificatepackage"
+                android:title="Certificate Packages" />
+</group>
+        </menu>
+    </item>
+
+
+
+
+</menu>

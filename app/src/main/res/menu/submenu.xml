@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:visible="false">
+
+    <item
+        android:id="@+id/sub_item1"
+        android:icon="@drawable/ic_star"
+        android:title="All Business" />
+    <item
+        android:id="@+id/sub_item2"
+        android:icon="@drawable/ic_star"
+        android:title="New Business" />
+
+    <item
+        android:id="@+id/sub_item3"
+        android:icon="@drawable/ic_star"
+        android:title="Email Tracker" />
+    <item
+        android:id="@+id/sub_item4"
+        android:icon="@drawable/ic_star"
+        android:title="Bulk Email" />
+    </group>
+</menu>

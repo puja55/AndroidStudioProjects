@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:scrollbars="vertical"
+    android:background="@color/white"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+
+        android:textColorHint="@color/colorblue"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:layout_marginTop="3dp"
+        android:textSize="13dp"
+
+        android:textColorHint="@color/colorblue"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:textSize="13dp"
+
+        android:textColorHint="@color/colorblue"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Village"
+        android:textColorHighlight="@color/colorblue"
+        android:textColor="@color/colorblue"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:textSize="13dp"
+
+        android:textColorHint="@color/colorblue"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:textSize="13dp"
+
+        android:textColorHint="@color/colorblue"
+        app:met_floatingLabel="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distance_tv"
+        android:text="Distance around my position: "
+        android:textSize="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:textColorHint="#05ab9a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/km_tv"
+        android:text="100"
+        android:textSize="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:textColorHint="#05ab9a"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" kms"
+            android:textSize="15dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+            android:textColorHint="#05ab9a"/>
+    </LinearLayout>
+    <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+        android:id="@+id/rangeSeekbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:corner_radius="10"
+        app:min_value="0"
+        android:layout_marginTop="5dp"
+        app:max_value="100"
+        app:bar_color="#73a3dff2"
+        app:bar_highlight_color="@color/colorblue"
+        app:left_thumb_color="#c2e7ad"
+        app:left_thumb_color_pressed="@color/green"
+        app:data_type="_integer"/>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/orderBy_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Order By"
+        android:textSize="13dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:textColorHint="@color/colorblue"
+        app:met_floatingLabel="normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="3sp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="APPLY"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/filtr_apply"
+        android:layout_height="40sp" />
+    </RelativeLayout>
+</LinearLayout>
+    </ScrollView>

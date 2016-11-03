@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#F5F5F5"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="5sp"
+        android:layout_marginTop="5sp"
+        android:background="@color/white"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="3dp"
+
+
+    >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/email_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="3dp"
+            android:textSize="12dp"
+            android:inputType="textEmailAddress"
+            android:hint="To:" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+  >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/email_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="3dp"
+            android:textSize="12dp"
+            android:inputType="text"
+            android:hint="Subject:" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+        <android.support.design.widget.TextInputEditText android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="12dp"
+
+            android:hint="Message:" />
+    </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>

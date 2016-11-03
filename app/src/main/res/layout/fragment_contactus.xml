@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+  android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#F5F5F5">
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="5sp"
+        android:orientation="vertical"
+        android:layout_marginLeft="5sp"
+        android:elevation="5sp"
+        android:layout_marginRight="5sp">
+
+        <!-- Name Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Name"
+                android:textSize="12dp"
+
+                android:layout_marginLeft="3dp"
+                android:inputType="textCapWords"
+                android:id="@+id/contact_name"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+
+            android:layout_width="match_parent"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="12dp"
+
+                android:layout_marginLeft="3dp"
+                android:hint="Email" android:inputType="textCapWords"
+                android:id="@+id/contact_email"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Email Label -->
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="3dp"
+                android:textSize="12dp"
+
+                android:hint="Mobile" android:inputType="number"
+                android:id="@+id/contact_mobile"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="3dp"
+                android:textSize="12dp"
+
+                android:hint="Type Your Message Here"
+                android:inputType="text" android:id="@+id/contact_msg"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/captchalinear"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:weightSum="2">
+
+            <TextView android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+
+                android:layout_marginLeft="3sp"
+                android:id="@+id/captcha"
+
+                android:textSize="12dp"
+
+                android:gravity="center"
+                android:text="CAPTCHA"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:inputType="textCapWords"
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/contact_task"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:layout_height="40sp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:background="@color/colorblue"-->
+            <!--android:layout_width="100sp"-->
+            <!--android:id="@+id/contact_btn"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="20sp"-->
+            <!--android:layout_below="@+id/captchalinear"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Send" />-->
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="5sp"
+
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5sp"
+            android:background="@color/white"
+
+            >
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Contact Us:"
+                android:textColor="@color/blue"
+                android:id="@+id/contact_contact"
+                android:textSize="15dp"
+                android:layout_marginLeft="3sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:layout_alignParentBottom="true"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/architec"
+                />
+            <!--<RelativeLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="left">-->
+
+            <!--<ImageView android:layout_height="match_parent"-->
+                <!--android:src="@drawable/splashlogo1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_gravity="start"-->
+                <!--android:layout_alignParentLeft="true"-->
+               <!--android:id="@+id/contact_molo" />-->
+    <!---->
+            <!--</RelativeLayout>-->
+
+            <TextView android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/contact_add"
+                android:layout_below="@+id/contact_img1"
+                android:textSize="12dp"
+
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3sp"
+                android:layout_alignParentBottom="true"
+             android:layout_marginLeft="5dp"
+                android:text="LG-11, Bansi Trade Center, Indore-452 001"
+                />
+
+
+            <TextView android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/contact_tel"
+                android:textSize="12dp"
+                android:text="Tel : + (91) -731 4074288"
+                android:layout_below="@+id/contact_add"
+                android:drawablePadding="10dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3sp"
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@drawable/phnicon"/>
+
+            <TextView android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/contact_mail"
+                android:textSize="12dp"
+                android:layout_below="@+id/contact_tel"
+                android:text="Mail : info@molomart.com"
+                android:layout_marginLeft="3sp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3sp"
+                android:layout_alignParentBottom="true"
+                android:drawablePadding="10dp" android:drawableLeft="@drawable/email"/>
+
+            <TextView android:layout_height="match_parent"
+                android:layout_width="match_parent"
+
+                android:id="@+id/contact_business"
+                android:textSize="12dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="3sp"
+                android:layout_below="@+id/contact_mail"
+                android:text="Business Hours : 10:00 AM - 8:30 PM"
+                android:drawablePadding="10dp"
+                android:layout_marginRight="3sp"
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@drawable/ic_bhrs"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
